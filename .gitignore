@@ -1,0 +1,16 @@
+venv/
+.env
+data/raw/
+data/silver/
+data/gold/
+kaggle.json
+.kaggle/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+reports/*.html
+.DS_Store
+Thumbs.db
+.vscode/
+*.pkl
+*.joblib
