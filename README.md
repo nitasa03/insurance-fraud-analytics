@@ -1,6 +1,6 @@
 # Insurance Risk & Claims Fraud Analytics Platform
 
-An end-to-end data engineering and machine learning project simulating a real-world insurance fraud detection and risk scoring system. Built to demonstrate skills relevant to ML Engineer, AI Engineer, and Data Engineer roles in the Canadian banking and insurance sector.
+An end-to-end data engineering and machine learning project simulating a real-world insurance fraud detection and risk scoring system. 
 
 ---
 
