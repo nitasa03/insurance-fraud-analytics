@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-04-01T15:56:04.643884",
+  "ieee_cis": {
+    "table": "default.train_transaction",
+    "sample_rows": 58905,
+    "total_columns_in_sample": 394,
+    "sample_fraud_rate_pct": 3.4666,
+    "sample_fraud_count": 2042,
+    "sample_null_cols_total": 342,
+    "sample_cols_to_drop_gt70_null": 168,
+    "sample_cols_to_impute": 174,
+    "categorical_cols": [
+      "ProductCD",
+      "card4",
+      "card6",
+      "P_emaildomain",
+      "R_emaildomain",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M7",
+      "M8",
+      "M9"
+    ]
+  },
+  "porto_seguro": {
+    "table": "default.porto_train",
+    "sample_rows": 59660,
+    "total_columns_in_sample": 59,
+    "sample_claim_rate_pct": 3.7144,
+    "sample_claim_count": 2216,
+    "sample_true_null_cols": 0,
+    "sample_minus1_encoded_cols": 10
+  },
+  "key_findings": [
+    "IEEE-CIS sample fraud rate is 3.4666%, confirming class imbalance.",
+    "IEEE-CIS sample columns to drop (>70% null): 168.",
+    "IEEE-CIS sample columns to impute: 174.",
+    "Porto Seguro sample columns with -1 encoding: 10.",
+    "IEEE-CIS TransactionAmt appears right-skewed.",
+    "IEEE-CIS categorical features such as ProductCD and card4 appear potentially informative in the sample."
+  ]
+}
